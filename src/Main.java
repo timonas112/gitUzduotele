@@ -41,5 +41,12 @@ public class Main {
         System.out.println("Paskutinis elementas - " + laikas[laikas.length - 1]);
         for(int i = 0; i < laikas.length; i++)
             System.out.println(i + 1 + ". " + laikas[i]);
+
+        mainasDu skaiciuojam = new mainasDu();
+
+        System.out.println("IVESKITE DU SKAICIUS IR MES JUOS");
+        System.out.println("| SUDESIME | | ATIMSIME | | PADALINSIME | | PADAUGINSIME | | GAUSIME DALYBOS LIEKANA | |");
+
+        skaiciuojam.darbas();
     }
 }
